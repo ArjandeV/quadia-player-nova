@@ -1,0 +1,30 @@
+{
+    "name": "ArajndeV/nova-quadia-player",
+    "description": "Quadia player field for Laravel Nova.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "quadia"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ArjandeV\\QuadiaPlayer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ArjandeV\\QuadiaPlayer\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
